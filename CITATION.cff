@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use these TILLERPIN source contracts, please cite them."
+title: "f200 TILLERPIN: offline task and calibration contracts"
+type: software
+authors:
+  - name: "f200"
+license: Apache-2.0
+keywords:
+  - entailment
+  - calibration

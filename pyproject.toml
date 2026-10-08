@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tillerpin-contracts"
+version = "0.1.0a0"
+description = "Offline task schemas, calibration and checkpoint admission contracts"
+requires-python = ">=3.12"
+license = "Apache-2.0"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+
+[tool.setuptools]
+packages = ["tillerpin", "train"]
+
+[tool.pytest.ini_options]
+testpaths = ["train/tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

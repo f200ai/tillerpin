@@ -1,0 +1,12 @@
+TILLERPIN source contracts
+Copyright 2026 f200
+
+The code is licensed under the Apache License, Version 2.0 (see LICENSE).
+This source alpha includes task schemas, temperature-calibration routines and offline
+experiment/checkpoint admission contracts. It does not include trained weights,
+tokenizers, dataset text, human annotations or evaluation results.
+
+Architecture identifiers in the admission contract identify external artifacts.
+No rights to those artifacts are granted by this code license; obtaining or using
+them requires separate provenance, license and safety review. No external model
+is downloaded or loaded by the included code.
